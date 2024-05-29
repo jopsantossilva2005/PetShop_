@@ -1,0 +1,77 @@
+*{ /* TODO O CSS ESTA COM A MARGIN 0 E ESPAÇAMENTO 0*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-image: url(../img/fundo-topo.jpg); /* fundo do header com img */
+    padding: 10px 0;
+}
+
+header h1{
+    margin: 0; /* margem zero */
+    height: 84px; /* altura de 84pixel */
+}
+
+nav{
+    text-align: center; /* texto alinhado ao centro */
+    padding: 15px 0; /*espaçamento */
+}
+nav li{ /*selecionando o li do nav */
+    display: inline; /*deixar as listas reta */
+    padding-right: 27px; /* espaçar as listas */
+    margin-right: 26px;
+    background-image: url(../img/patinha-preta.png); /* ".." para aparecer os seletores */
+    background-repeat: no-repeat; /* não repetir o background */
+    background-position: center right; /* O background da patinha foi alinhado ao centro direita */
+}
+
+nav a{
+    text-decoration: none; /* tirou a linha debaixo do texto */
+    color: black;
+}
+
+nav a:hover{ /* hover serve para mudar a cor quando o mouse passa em cima */
+    color: #6dd432; 
+}
+
+/* Estilo Especifico IDS */
+
+#itemcontato{ /* # serve para chamar o id */
+    background-image: none; /* o item contato fica sem nenhuma imagem */
+    padding-right: 0; /* Espaçamento a direita zero */
+    margin-right: 0; /* margem zero a direita */
+}
+
+/* Estilos recorrentes Class */
+
+.fundo-verde{
+    background-color: #bdff95;
+}
+
+.conteiner{
+    width: 900px; /* Largura */
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-conteiner{
+    display: flex; /* Display fica flexivel*/
+    justify-content: space-between; /* Espaço entre eles */
+}
+
+.flex-conteiner .col{
+    width: 430px;
+
+}
+
+/* COMANDOS GIT
+git init
+git branch -M main
+
+*/
